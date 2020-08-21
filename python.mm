@@ -41,6 +41,94 @@
                   <node TEXT="&quot;{:.2f}&quot;.format(3.1415926)" ID="5155f104dae4d9552c105de6dcfb0e81" STYLE="fork"/>
                 </node>
               </node>
+              <node TEXT="str.split()" ID="c1b67584f536f94308a5a9a898e3930c" STYLE="fork">
+                <node TEXT="分隔字符串，返回列表，第一个参数为用什么分隔，第二参数为分隔次数" ID="99c1e8f31f007237f18ab75582a3f51c" STYLE="fork"/>
+              </node>
+              <node TEXT="str.title()" ID="5a813d0b1d76f77e59e2d2a744d39859" STYLE="fork">
+                <node TEXT="返回首字母大写" ID="c87a19ccf62cfc672bb5c4cc54656a53" STYLE="fork"/>
+              </node>
+              <node TEXT="str.upper()" ID="73886671baadf48b0e0c75fa00dbe8d4" STYLE="fork">
+                <node TEXT="返回全部大写字符串" ID="9173182cb05e27e34d88b7b5bb256002" STYLE="fork"/>
+              </node>
+              <node TEXT="str.lower()" ID="c549c2d5377ec5f4831e46488c34084c" STYLE="fork">
+                <node TEXT="返回全部小写字符串" ID="a8af6073ad7b4fdba163b7b8147ff095" STYLE="fork"/>
+              </node>
+              <node TEXT="str.swapcase()" ID="d79eb9a313fad07ed441e2fe797a265e" STYLE="fork">
+                <node TEXT="返回大小写交换后的字符串" ID="201d66285ffea29c35db11906d95588f" STYLE="fork"/>
+              </node>
+              <node TEXT="str.isalnum()" ID="476ee12a6063de992438ed98f0b5e81e" STYLE="fork">
+                <node TEXT="判断字符串中是否只有字母和数字，返回布尔值" ID="b596bbdc2e79f507a0590b37f006c187" STYLE="fork"/>
+              </node>
+              <node TEXT="str.isalpha()" ID="fc5b306952644090326de64f0d5853fe" STYLE="fork">
+                <node TEXT="判断字符串是否只有字母，返回布尔值" ID="05ca77680e065536f91307a182c86e23" STYLE="fork"/>
+              </node>
+              <node TEXT="str.isdigit()" ID="506016f8db1cfa64f76de12684c8bd24" STYLE="fork">
+                <node TEXT="判断字符串是否全部由数字组成，返回布尔值" ID="7f35dd981ad2c9ae2685fc173bff180c" STYLE="fork"/>
+              </node>
+              <node TEXT="str.islower()" ID="0c67f823900803759a3e3c2d75ad198a" STYLE="fork">
+                <node TEXT="判断字符串是否全为小写字母，返回布尔值" ID="a16121556060a562a55728cfa14bb2dc" STYLE="fork"/>
+              </node>
+              <node TEXT="str.isupper()" ID="8d23d2ef1e6efe26d9f29f9b9b1bad04" STYLE="fork">
+                <node TEXT="判断字符串是否全为大写字母，返回布尔值" ID="e7cda0fcd3d48ae0f33738844a76d560" STYLE="fork"/>
+              </node>
+              <node TEXT="str.istitle()" ID="e356c54f0b46fd86f42235038b3eff85" STYLE="fork">
+                <node TEXT="判断字符串是否为首字母大写，返回布尔值" ID="6cd7a965c685f09f989b87cb20459195" STYLE="fork"/>
+              </node>
+              <node TEXT="str1.join(str2)" ID="e9bd88d69d419d1aa12a2c207c9ba0ed" STYLE="fork">
+                <node TEXT="连接多个字符串，str1用str2分隔并连接一起" ID="e95a1df1acc0880c4c959686365e36e9" STYLE="fork"/>
+              </node>
+              <node TEXT="str.strip()" ID="4750d2799cc365ca2475dc2d8b83239e" STYLE="fork">
+                <node TEXT="默认不加参数，去除头尾的空格及换行符，加参数为去除头尾指定的参数内容" ID="8875c27c8728038f18d20b7dc2f61c32" STYLE="fork"/>
+              </node>
+              <node TEXT="str.lstrip()" ID="650b3b9bd95723d6b1796e128e71f484" STYLE="fork">
+                <node TEXT="默认不加参数，去除左边的空格及换行符，加参数为去除左侧指定的参数内容" ID="0d1a0f4f90ed4beef970c2d61f7ee648" STYLE="fork"/>
+              </node>
+              <node TEXT="str.rstrip()" ID="4b6bda9779a75a457bae0dd02e29cb74" STYLE="fork">
+                <node TEXT="默认不加参数，去除右边的空格及换行符，加参数为去除右侧指定的参数内容" ID="bd8089ff2c836ba7737c05bcac166087" STYLE="fork"/>
+              </node>
+              <node TEXT="str.find(&apos;substr&apos;)" ID="27e0493b8fe372b9ba676f0146e5f571" STYLE="fork">
+                <node TEXT="查找第一个匹配的子字符串，返回索引，没有找到则返回 -1" ID="35c4d88f85fe5c469f22470545c89c13" STYLE="fork"/>
+              </node>
+              <node TEXT="str.startswith(&apos;substr&apos;)" ID="dc50ca224a215cba27adbb6315bb2448" STYLE="fork">
+                <node TEXT="判断字符串是否以substr开头，返回布尔值" ID="53e692003eaaf78e904a6153cdd95b91" STYLE="fork"/>
+              </node>
+              <node TEXT="str.endswith(&apos;substr&apos;)" ID="419a00e3d92758364ca8688e0127b529" STYLE="fork">
+                <node TEXT="判断字符串是否以substr结尾，返回布尔值" ID="72bf87bbb2affa861750da374fb59f8a" STYLE="fork"/>
+              </node>
+              <node TEXT="%" ID="e7d812054e1644d64c049f52b5221f1d" STYLE="fork">
+                <node TEXT="占位符" ID="ec257d6edb1b8832b037da4e5d3394bb" STYLE="fork">
+                  <node TEXT="%s" ID="63790ae016948133ced28f0e9b6df2a6" STYLE="fork">
+                    <node TEXT="字符串，用str()函数转换" ID="570e23d3a962134b2ae9d318e89457f4" STYLE="fork"/>
+                  </node>
+                  <node TEXT="%d" ID="524c6ee54c5b2520dc5d33c2d972ddf0" STYLE="fork">
+                    <node TEXT="十进制整数" ID="9da20b7d9162c3702d6bb0af6bc30cf1" STYLE="fork"/>
+                  </node>
+                  <node TEXT="%x" ID="04f88f82a68fd522336d288eae48b264" STYLE="fork">
+                    <node TEXT="十六进制整数" ID="a3063f1a17f259d9d1ef75b68aa70168" STYLE="fork"/>
+                  </node>
+                  <node TEXT="%f" ID="9a5a64fdae46414ee79483d00d00973c" STYLE="fork">
+                    <node TEXT="浮点数" ID="377a0dd55dc54e17de83eb830eac3099" STYLE="fork"/>
+                  </node>
+                  <node TEXT="%r" ID="785916dff0a90a59b7faf53d7a5a1466" STYLE="fork">
+                    <node TEXT="字符串，用repr()函数转换" ID="342a0d47f796fca5c8fdc21668f64fbc" STYLE="fork"/>
+                  </node>
+                  <node TEXT="%%" ID="a064cbf2f312190f0dde0981c4e626e7" STYLE="fork">
+                    <node TEXT="字符‘%’" ID="cdc322e427c36e54a9b60f0a7d65bfb3" STYLE="fork"/>
+                  </node>
+                </node>
+              </node>
+              <node TEXT="ord()" ID="d67dee1a02f2ba67527f97fd758db533" STYLE="fork">
+                <node TEXT="字符转换为Unicode码" ID="1b5d21fea8acdc9d52953d981babd72d" STYLE="fork"/>
+              </node>
+              <node TEXT="chr()" ID="bb37c18ac09a734fa06225bfe78eb9d4" STYLE="fork">
+                <node TEXT="Unicode转为字符" ID="7c6d07fd86e3746b9791eb8ac6c17929" STYLE="fork"/>
+              </node>
+              <node TEXT="b&apos;str&apos;" ID="4c78155b56852d71b2640cdfb302983f" STYLE="fork">
+                <node TEXT="字符串转为bytes" ID="631738c048b8c13fe684989edebbfe79" STYLE="fork"/>
+              </node>
+              <node TEXT="b&apos;str&apos;.decode(&apos;utf-8&apos;)" ID="e8fe9446468c332722e7510488ba5e82" STYLE="fork">
+                <node TEXT="bytes转换为字符串" ID="53fdc09e76053578bdaaff1687422221" STYLE="fork"/>
+              </node>
             </node>
           </node>
           <node TEXT="数字" ID="550aa98f4746c94cca01e3fc703a114f" STYLE="fork">
@@ -189,6 +277,9 @@
         </node>
         <node TEXT="zip()" ID="3726c2cfdb988a1ace73296dec776906" STYLE="fork">
           <node TEXT="同时遍历两个序列类型" ID="c76902674b7d2fff39f9c96385febccc" STYLE="fork"/>
+        </node>
+        <node TEXT="自定义函数" ID="72a3edf11fae35116eeb2106dfb12ce1" STYLE="fork">
+          <node TEXT="def functionname(参数,...)" ID="26ca89ba6c07ff84525a473750804ba5" STYLE="fork"/>
         </node>
       </node>
       <node TEXT="运算符" ID="444d4b15c5b7e7c7a893da84ea3e532b" STYLE="fork">
@@ -384,6 +475,29 @@
       </node>
       <node TEXT="关键字" ID="27753ac4472a174b96ad4c52284bda21" STYLE="fork">
         <node TEXT="" ID="75be060542f7f51ca5c63672c633a461" STYLE="fork"/>
+      </node>
+      <node TEXT="文件处理" ID="386f791fdd890a2afd32bc01bf019cec" STYLE="fork">
+        <node TEXT="open(目录或文件名,模式r、w、a)" ID="aadd799420f4bf467618a7aa401805c5" STYLE="fork">
+          <node TEXT="打开文件" ID="d1fe5ba2abc2db30d6d0a4a507df3624" STYLE="fork"/>
+        </node>
+        <node TEXT="close()" ID="8421ebf218e8510958775a62d01c92f8" STYLE="fork">
+          <node TEXT="关闭文件" ID="34e1d01dcad5b5ac3d377c39632e73d9" STYLE="fork"/>
+        </node>
+        <node TEXT="fileName.read(size)" ID="dde35274af3efc92e880d14e8b98ac31" STYLE="fork">
+          <node TEXT="默认不加参数为读取整个文件，参数size可以设置一次读取字符个数" ID="d46fc6a8df51d54165bca8e744b57dc5" STYLE="fork"/>
+        </node>
+        <node TEXT="filename.readline()" ID="6d12337e60cd9ed480b64234b674432d" STYLE="fork">
+          <node TEXT="按行读取每次读一行；" ID="7f9c032c8774f15925aad816049f1c1f" STYLE="fork"/>
+        </node>
+        <node TEXT="filename.readlines()" ID="3f9508a32c637ffe5d101b293c0ab3c7" STYLE="fork">
+          <node TEXT="读取所有行到列表中" ID="d3583aeef9fc2952b80b6befe13e9522" STYLE="fork"/>
+        </node>
+        <node TEXT="filename.writer(&quot;str&quot;)" ID="afe77d2a34f09f678545b4f829f6e0d3" STYLE="fork">
+          <node TEXT="写入文件" ID="dba5aa5bc4253c7e3a486107141f9044" STYLE="fork"/>
+        </node>
+        <node TEXT="with" ID="bdef597fc7758148f42e17e9719001b9" STYLE="fork">
+          <node TEXT="with 语句处理文件对象，它会在文件用完后会自动关闭，就算发生异常也没关系。它是 try-finally 块的简写：" ID="4b2e39943dbec2cfc8be70b4e2acd71d" STYLE="fork"/>
+        </node>
       </node>
     </node>
   </node>
